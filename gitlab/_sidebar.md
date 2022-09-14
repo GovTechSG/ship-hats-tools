@@ -4,7 +4,6 @@
   -	[Roles and Permissions](gitlab/gitlab-roles-and-permissions)
   - [Best Practices](gitlab/gitlab-best-practices)
   - [Fair Usage Policy](gitlab/gitlab-fair-usage-policy)
-  - [Global Default Settings](gitlab/gitlab-global-default-settings)
   - [Security Compliance](gitlab/gitlab-security-compliance)
   - [Terms and Conditions](gitlab/gitlab-terms-and-conditions)
   - [Troubleshooting](gitlab/gitlab-troubleshooting)
@@ -27,6 +26,7 @@
   -	[Remove](gitlab/gitlab-remove)
   - [Best Practices](gitlab/gitlab-best-practices)
   - [FAQs](gitlab/gitlab-faqs)
+  - [Global Default Settings](gitlab/gitlab-global-default-settings)
   - [Troubleshooting](gitlab/gitlab-troubleshooting)
   - [Additional Resources](gitlab/gitlab-additional-resources)        
 - **Additional Resources**

@@ -2,7 +2,7 @@
 
 Following Jira plugins are supported:
 
-|Plugin|Link to access Plugin|
+|Plugin|Link|
 |---|---|
 |BigGantt - Gantt Chart for Jira|https://marketplace.atlassian.com/apps/1213016/biggantt-gantt-chart-for-jira?tab=overview&hosting=cloud
 |Extension for Jira Service Management |https://marketplace.atlassian.com/apps/1212161/extension-for-jira-service-management?tab=overview&hosting=cloud

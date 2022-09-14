@@ -13,5 +13,5 @@ These tasks may be completed by multiple people in your organization and SHIP-HA
 |[Provision Nexus repo](nexus-repository/nexus-repo-provision) |PA|
 |[Log in to Nexus repo](nexus-repository/nexus-repo-log-in)|PA|
 |[Clean up docker repo](nexus-repository/nexus-repository-clean-up-docker-repo)|PA|
-|[Access repo](nexus-repository/)|PA
-|[Upload to Nexus repo](nexus-repository/)|
+|Access repo|PA
+|Upload to Nexus repo|PA

@@ -13,3 +13,8 @@ Using SHIP-HATS compliance templates, you can assure that your pipeline includes
 ### Sample Compliance Framework
 
 ![Sample Compliance Framework](./images/sample-compliance-framework.png)
+
+### Related topics
+ 
+- [Pipeline templates](https://docs.developer.tech.gov.sg/docs/ship-hats-getting-started/pipeline-templates)
+- [Sample pipeline](https://docs.developer.tech.gov.sg/docs/ship-hats-getting-started/sample-pipeline)

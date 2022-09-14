@@ -2,7 +2,7 @@
 
 Following Confluence plugins are supported:
 
-|Plugin|Link to access Plugin|
+|Plugin|Link|
 |---|---|
 |Gliffy Diagrams for Confluence|https://marketplace.atlassian.com/apps/254/gliffy-diagrams-for-confluence?tab=overview&hosting=cloud
 |Polls for Confluence|https://marketplace.atlassian.com/apps/1211126/polls-for-confluence?tab=overview&hosting=cloud|

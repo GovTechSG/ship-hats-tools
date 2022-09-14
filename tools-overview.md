@@ -8,18 +8,26 @@ The following table provides a list of tools integrated with SHIP-HATS and the s
 
 |Tools |  Supported Version | Endpoint (URL) |
 | --- | --- | --- |
-|[Confluence](confluence/confluence-overview)|7.14.1|https://confluence.ship.gov.sg/|
-|[Fortify on Demand](fod/fod-overview)|NA|https://www.sgp.fortify.com/
 |[GitLab](gitlab/gitlab-overview)|NA|https://sgts.gitlab-dedicated.com/
+|[Confluence](confluence/confluence-overview)|7.14.1|https://confluence.ship.gov.sg/|
+|[Fortify on Demand](fod-overview)|NA|https://www.sgp.fortify.com/
 |[Jira](jira/jira-overview.md) |8.20.1 |https://jira.ship.gov.sg/|
-|[Nexus IQ](nexus-iq/nexus-iq-overview)  |135 | https://nexus-iq.ship.gov.sg/assets/index.html |
-|[Nexus Repo](nexus-repository/nexus-repository-overview) |  3.38.0 | https://nexus.ship.gov.sg/|
+|[Nexus IQ](nexus-iq/nexus-iq-overview) |135 | https://nexus-iq.ship.gov.sg/assets/index.html |
+|[Nexus Repository Pro](nexus-repository/nexus-repository-overview) |  3.38.0 | https://nexus.ship.gov.sg/|
 |[pCloudy](pcloudy/pcloudy-overview) | NA | https://hats.pcloudy.com/ <br><br> As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy.|
 |[Prisma Cloud (earlier known as Twistlock)](prisma-cloud/prisma-cloud-overview) |21.04 | https://twistlock.apps.hats.stack.gov.sg/|
 |[Purple HATS](purple-hats/purple-hats-overview) | NA | NA as it is a CLI tool. |
+|SonarQube |Community edition 8.9 | https://sonar.hats.stack.gov.sg/sonar |
+|Thinking HATS |2.8.0 | https://thinking.hats.stack.gov.sg/ |
+
+
+<!--
+
+|[Nexus IQ](nexus-iq/nexus-iq-overview)  |135 | https://nexus-iq.ship.gov.sg/assets/index.html |
 |[SonarQube](sonarqube/sonarqube-overview) |Community edition 8.9 | https://sonar.hats.stack.gov.sg/sonar |
 |[Thinking HATS](thinking-hats/thinking-hats-overview) |2.8.0 | https://thinking.hats.stack.gov.sg/ |
 
+-->
 <!--
 ## Tools journey in SHIP-HATS
 

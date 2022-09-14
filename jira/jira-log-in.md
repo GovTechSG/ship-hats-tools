@@ -5,7 +5,7 @@
 
 ### To log in to Jira
 
-1. Go to [Jira](http://jira.ship.gov.sg).  
+1. Go to [Jira](https://jira.ship.gov.sg).  
     You will be directed to Cloudflare.
 1. Select **Azure AD**.  
     

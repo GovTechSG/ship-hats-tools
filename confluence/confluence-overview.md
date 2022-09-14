@@ -2,19 +2,13 @@
 
 Confluence provides a shared space for collaboration to view, access, and manage all tasks and problems for the entire team enforces the idea of the shared responsibility. Knowledge sharing and environment also encourage experimentation.
 
-For more information, refer to [https://support.atlassian.com/confluence-cloud/resources/](https://support.atlassian.com/confluence-cloud/resources/).
+For more information, refer to [Confluence](https://support.atlassian.com/confluence-cloud/resources/) documentation.
 
-
-## Latest features
 <!--
-The following section lists the latest Confluence features that are supported with SHIP-HATS:
+## Latest features
 
-- Feature 1
-- Feature 2
-- Feature 3
--->
 For latest features, refer to the [Atlassian Cloud Documentation blog posts](https://confluence.atlassian.com/cloud/blog/2022).
-
+-->
 <!--
 **Topics**  
 

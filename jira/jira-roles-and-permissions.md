@@ -47,8 +47,8 @@ The permissions applicable to project roles depend on the permission scheme assi
 
 ### To view permissions applicable for all user roles
 
-1. In [SHIP Jira](https://gccprod-my.sharepoint.com/personal/ramakrishnan_sowmya_tech_gov_sg/Documents/SHIP-HATS/Documentation%20&%20Training/jira.ship.gov.sg), go to **Projects** to choose your project.
-
+1. In [SHIP-HATS Jira](https://jira.ship.gov.sg/), go to **Projects** to choose your project.
+    
 1. Click **Project settings** at the lower-left.
 
 1. From the sidebar, select **Permissions**. You will be able to view the **Project Permissions**.

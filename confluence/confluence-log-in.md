@@ -5,7 +5,7 @@
 
 ### To log in to Confluence
 
-1. Go to [Confluence](http://confluence.ship.gov.sg).  
+1. Go to [Confluence](https://confluence.ship.gov.sg).  
     You will be directed to Cloudflare.
 1. Select **Azure AD**.  
     
