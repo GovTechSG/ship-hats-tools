@@ -36,7 +36,8 @@ We have moved all the proxy repositories to S3-Proxy blobstore. So any new proxy
 |	Nuget V3|	nuget-sitecore-commerce	|https://nexus.ship.gov.sg/repository/nuget-sitecore-commerce/|	https://sitecore.myget.org/F/sc-commerce-packages/api/v3/index.json
 |	Nuget V3|	nuget-sitecore|	https://nexus.ship.gov.sg/repository/nuget-sitecore/|	https://sitecore.myget.org/F/sc-packages/api/v3/index.json
 |	Nuget V3|	nuget-api-proxy|	https://nexus.ship.gov.sg/repository/nuget-api-proxy/	|https://api.nuget.org/v3/index.json
-
+|Yum	|yum-neo4j|	https://nexus.ship.gov.sg/repository/yum-neo4j/|	https://yum.neo4j.com/stable|
+|	conda|	conda-proxy|	https://nexus.ship.gov.sg/repository/conda-proxy|https://repo.anaconda.com/pkgs/
 
 ## Repository types
 
