@@ -1,9 +1,23 @@
-# Fortify User Roles and Permissions
+# Roles and Permissions
 
+User roles and their permissions determine the actions a user can perform in Fortify on Demand (FOD). 
+
+|Role|Description|
+|---|---|
+|**View-Only**	|Application users with this role can view:<ul><li>General information of the application.</li><li>Application versions.</li></ul>
+|**GT-Report-Upload-And-Generate-SAST-and-DAST**|In addition to **View-Only**, users with this role can:<ul><li> Run SAST scan</li><li>Run DAST scans</li></ul>|
+|**GT-Application Security Tester**|In addition to **View-Only**, users with this role can:<ul><li> Edit Issues </li><li> Create Reports</li></ul>|
+|**GT-Security Lead**|In addition to **GT-Application Security Tester**, users with this role can: <ul><li>Audit Issues</li></ul>
+|**GT-Manager**	|In addition to **GT-Security Lead**, users with this role can: <ul><li>Manage Applications</li></ul>
+
+
+
+
+
+<!--
 User roles and their permissions determine the actions a user can perform in Fortify Software Security Center (SSC). Fortify as a COTS product comes with system defined roles and permissions. We have customised these system-defined roles and permissions to meet your requirements.
 
 The following table lists the roles and permissions available on Fortify with SHIP-HATS. 
-<!--Refer to **Manage user role in Fortify applications** for more information.-->
 
 | **Roles**     | **Permissions** |
 | ------------- |:-------------|
@@ -17,3 +31,4 @@ The following table lists the roles and permissions available on Fortify with SH
 >**Notes:**
 >- To run dynamic scans, the user must either have a **User** or **Manager** [role in WebInspect (WIE)](webinspect-user-access-control).
 >- PAs can refer to [WIE service request guidelines](webinspect-service-tickets-guide) and raise service request to add users and assign roles in WIE. You can access these pages only if you have access to Confluence in your organisation.
+-->

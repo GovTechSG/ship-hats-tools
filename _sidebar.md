@@ -1,9 +1,9 @@
 **2.0 Tools**
   - [Audience](audience)
   - [Overview](tools-overview) 
-  - [Gitlab](gitlab/gitlab-overview)  
+  - [GitLab](gitlab/gitlab-overview)  
   - [Confluence](confluence/confluence-overview)
-  - [Fortify-on Demand](fod-overview)
+  - [Fortify-on Demand](fod/fod-overview)
   - [Jira](jira/jira-overview) 
   - [Nexus IQ](nexus-iq/nexus-iq-overview)
   - [Nexus Repository Pro](nexus-repository/nexus-repo-overview) 
@@ -23,6 +23,8 @@
 **Additional Resources**
   - [Getting Started](https://docs.developer.tech.gov.sg/docs/ship-hats-getting-started/#/)
   - [Portal](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/#/ship-hats-portal-overview)
+  - [Migration](https://docs.developer.tech.gov.sg/docs/ship-hats-migration/)  
+
 
 <!--
 

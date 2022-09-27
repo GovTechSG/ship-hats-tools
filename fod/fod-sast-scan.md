@@ -7,17 +7,17 @@ Complete the following steps to conduct a SAST scan:
 1. [Upload ZIP to FOD server for processing and scanning](#upload-zip-to-fod-server-for-processing-and-scanning)
 1. [Generate report based on scan results](#generate-report-based-on-scan-results)
 
-Two Gitlab templates are available for SAST scans:
+## GitLab Templates
 
-- One specifically for MSBuild which will be utilising the Gitlab Windows runner. - TODO
-- Another for all other language agnostic languages such as Python, Ruby which will utilise the Linux runner. You can access them here: https://gts.gitlab-dedicated.systems/templates/ship-hats-templates/-/tree/main/templates#file-gitlab-ci-run-fod-sastyml
+Following [GitLab templates](https://gts.gitlab-dedicated.systems/templates/ship-hats-templates/-/tree/main/templates#file-gitlab-ci-run-fod-sastyml) are available for SAST scans:
 
-Please use the MSBuild template only for .NET/MSBuild projects as the template is specifically catered for it.
+- Template for MSBuild utilises the GitLab Windows runner. Use the MSBuild template only for .NET/MSBuild projects as the template is specifically catered for it.
+- Template for all other languages (such as Python, Ruby), utilises the Linux runner. 
 
 ## Package source code in ZIP file
 
 
-FOD uses scancentral to package the source code into a ZIP file. The translation and scanning will be done in the SaaS server. 
+FOD uses `scancentral` to package the source code into a ZIP file. The translation and scanning will be done in the SaaS server. 
 
 Below are some examples on how to package your source code based on the programming language in use.
 
@@ -42,7 +42,7 @@ A utility tool (https://github.com/fod-dev/fod-uploader-java) is used to upload 
 FOD_UPLOADER_OPTS: "-apf -ts 10 -l 18"
 ```
 
-`-apf` is recommended since it will fail your build whenever your scan results fails the security policy set in FOD.
+`-apf` is recommended since it will fail your build whenever your scan results fail the security policy set in FOD.
 
 |Parameter|	Description|
 |---|---|
@@ -53,4 +53,4 @@ FOD_UPLOADER_OPTS: "-apf -ts 10 -l 18"
 
 ## Generate report based on scan results
 
-After the scan is completed and your build passes, a report is automatically generated for your job. You can view the vulnerabilities under the **Gitlab Vulnerability Dashboard**.
+After the scan is completed and your build passes, a report is automatically generated for your job. You can view the vulnerabilities under the **[GitLab Vulnerability Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/)**.
