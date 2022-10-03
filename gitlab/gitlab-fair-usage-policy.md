@@ -4,17 +4,20 @@ We strive to ensure consistent availability to all users and improve our service
 
 ## Storage
 
-If your total namespace/group storage exceeds the available storage quota, all projects under the namespace/group will be locked. A locked project will not be able to push to the repository, run pipelines and jobs, or build and push packages. Therefore, Agency is encouraged to perform regular housekeeping by using the following guidelines:
+<!--If your total namespace/group storage exceeds the available storage quota, all projects under the namespace/group will be locked. A locked project will not be able to push to the repository, run pipelines and jobs, or build and push packages. Therefore, Agency is encouraged to perform regular maintenance by using the following guidelines:-->
 
 - **Each User personal Namespace:** Each User may create up to 10 projects maximum in GitLab in their personal namespace.
-- **Each GitLab Group:** Each Group may create more than 10 projects while ensuring that the Group's storage is kept within the allocated size (10 GB x Number of Users/Group).
-- **Each repo:** Each repo size should be limited to 2 GB maximum.
+- **Each GitLab Group (SHIP-HATS Subscription):** Storage usage in the group should be within the size (i.e., 10 GB x Number of Users in the group).
 
-Agencies with specific requirements, please submit a service request or write to [enquiries_SHIP@tech.gov.sg](enquiries_SHIP@tech.gov.sg) for evaluation by the SHIP-HATS team. Requests will be reviewed based on actual use-case.
+Therefore, Agencies must perform regular [maintenance](#maintenance).
 
-## Housekeeping
+<!--- **Each repo:** Each repo size should be limited to 2 GB maximum.-->
 
-A periodical review and housekeeping are encouraged to ensure that the Group's storage is kept within the allocated size.
+<!--Agencies with specific requirements, please submit a service request or write to [enquiries_SHIP@tech.gov.sg](enquiries_SHIP@tech.gov.sg) for evaluation by the SHIP-HATS team. Requests will be reviewed based on actual use-case.-->
+
+## Maintenance
+
+A periodical review and maintenance are encouraged to ensure that the Group's storage is kept within the allocated size.
 
 You may back up and store the following components in your own S3 bucket/storage services as required:
 - Repository
