@@ -1,5 +1,9 @@
 # FAQs
 
+>**Tip:** Click the question to view the answer.
+
+
+
 <details>
   <summary><b>What are the 15 supported languages?</b></summary><br>
 

@@ -1,10 +1,10 @@
-# Set up SonarQube Community Edition
+# Set up SonarQube
 
 
-To set up SonarQube Community edition, complete the following steps:
+To set up SonarQube, complete the following steps:
 
 1. [Retrieve app key and token ID](#retrieve-app-key-and-token-id)
-2. [Configure Bamboo plan](#configure-bamboo-plan)
+2. [Configure GitLab for Sonar Scan](#configure-gitlab-for-sonar-scan)
 3. [Set up Sonar scan for different languages](#sonar-scan-for-different-languages)
 4. [Test coverage](#test-coverage)
 
@@ -12,8 +12,13 @@ To set up SonarQube Community edition, complete the following steps:
 
 ## Retrieve app key and token ID
 
-Only **Project Admin (PA)** can get the details of SonarQube application. Please contact your **PA** to retrieve **App Key** and **Token ID**.
+Only **Project Admin (PA)** can get the details of SonarQube application. Please contact your **PA** to retrieve **App Key** and **Token ID**. For more information, refer to the [Retrieve token](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-tokens?id=retrieve-token) documentation.
 
+## Configure GitLab for Sonar Scan
+
+- Use the [SHIP-HATS templates](https://docs.developer.tech.gov.sg/docs/ship-hats-getting-started/pipeline-templates) to build a CI/CD pipeline. You can customise the template based on your requirements to build a customised CI/CD pipeline.
+
+<!--
 ### Prerequisites
 
 - All Project Admins must log in to https://sonar.hats.stack.gov.sg/sonar with their SHIP LDAP credentials to trigger the account creation.
@@ -23,10 +28,12 @@ Failing to so may result in an error when either of the scenarios occurs:
 - Creating new application (Sonarqube/Fortify)
 - Adding a new user as project admin.
 
----
 
 ### To retrieve app key and token ID
 
+- Refer to the [Retrieve token](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-tokens?id=retrieve-token) documentation.
+-->
+<!--
 1. Log in to the [SHIP-HATS portal](https://www.ship.gov.sg).
 
 1.  Under **Projects**, click **All Projects**, and then click **Manage** on the required project.
@@ -46,7 +53,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     ![Manage tool](./images/hats-community-image2.png)
 
 ---
-
+-->
 
 ## Configure Bamboo plan
 
@@ -138,6 +145,8 @@ Failing to so may result in an error when either of the scenarios occurs:
     >-   For example, the variable `bamboo.my.variable` is `\$bamboo_my_variable` in bash. This is related to File Script tasks (not Inline Script tasks).
 
 ---
+
+
 
 ## Sonar scan for different languages
 **Topics**
