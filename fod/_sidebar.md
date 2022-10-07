@@ -8,6 +8,7 @@
   -	[Add](fod/fod-add)
   - [DAST Scan](fod/fod-dast-scan)
   - [SAST Scan](fod/fod-sast-scan)
+  - [SAST Scan using Bamboo](fod/fod-sast-scan-bamboo)
   -	[Remove](fod/fod-remove)
   - [Service Level Objectives](fod/fod-slo)
   - [Production Risk & Policy Compliance](fod/fod-policy)
