@@ -27,7 +27,7 @@ Two types of plans are provided:
 1. Get FOD release number from the URL (for e.g. the release number = 100)
     
     ![Release](./images/fod_bamboo-release.png)
-1. PA/SA to [retrieve the FOD token (Personal Access Token)](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-tokens) from the [SHIP-HATS portal](https://www.ship.gov.sg/). 
+1. PA/SA to [retrieve the FOD token (Personal Access Token)](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-tokens) from the [SHIP-HATS portal](https://portal.ship.gov.sg/). 
 1. PA/SA to get the FOD service account from the [FOD portal](https://sgp.fortify.com/).
     1. Navigate to to the FOD Portal > Your application > Access, and then search for `svc-acct`. The service account will be the first part of the email before `@`. In the example below, the service account is `svc-acct-hats`.
 
