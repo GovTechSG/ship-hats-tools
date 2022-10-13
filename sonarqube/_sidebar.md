@@ -1,6 +1,5 @@
 - **SonarQube**
   - [Overview](sonarqube/sonarqube-overview)
-  - [User journey](sonarqube/sonarqube-user-journey)
   - [Roles and permissions](sonarqube/sonarqube-users-and-permissions)  
   - [Set up SonarQube](sonarqube/sonarqube-set-up)
   - [Create Quality Gates and Profiles](sonarqube/sonarqube-quality-gates-and-profiles)

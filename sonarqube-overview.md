@@ -1,3 +1,0 @@
-# SonarQube
-
-Coming soon!

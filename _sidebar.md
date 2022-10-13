@@ -10,7 +10,7 @@
   - [pCloudy](pcloudy/pcloudy-overview)
   - [Prisma Cloud](prisma-cloud/prisma-cloud-overview)
   - [Purple Hats](purple-hats/purple-hats-overview)
-  - [SonarQube](sonarqube-overview)
+  - [SonarQube](sonarqube/sonarqube-overview)
   - [Thinking Hats](thinking-hats-overview)
 **Decommissioned Tools**
   - [Bamboo](bamboo)
