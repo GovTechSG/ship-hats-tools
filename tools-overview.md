@@ -33,8 +33,13 @@ The following table provides a list of tools integrated with SHIP-HATS and the s
 |[Nexus IQ](nexus-iq/nexus-iq-overview) |135 | https://nexus-iq.ship.gov.sg/assets/index.html |
 |[Nexus Repository Pro](nexus-repository/nexus-repository-overview) |  3.38.0 | https://nexus.ship.gov.sg/|
 |[pCloudy](pcloudy/pcloudy-overview) | NA | https://hats.pcloudy.com/ <br><br> As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy.|
-|[Prisma Cloud (earlier known as Twistlock)](prisma-cloud/prisma-cloud-overview) |21.04 | https://twistlock.apps.hats.stack.gov.sg/|
 |[Purple HATS](purple-hats/purple-hats-overview) | NA | NA as it is a CLI tool. |
 |[SonarQube](sonarqube/sonarqube-overview) |Community edition 9.3  | https://sonar.hats.stack.gov.sg/sonar|
 |[SonarQube](sonarqube/sonarqube-overview) |Developer edition 9.3 | https://sonar1.hats.stack.gov.sg/sonar|
 
+<!--
+
+|[Prisma Cloud (earlier known as Twistlock)](prisma-cloud/prisma-cloud-overview) |21.04 | https://twistlock.apps.hats.stack.gov.sg/|
+
+
+-->

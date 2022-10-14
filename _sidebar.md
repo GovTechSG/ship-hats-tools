@@ -8,7 +8,6 @@
   - [Nexus IQ](nexus-iq/nexus-iq-overview)
   - [Nexus Repository Pro](nexus-repository/nexus-repo-overview) 
   - [pCloudy](pcloudy/pcloudy-overview)
-  - [Prisma Cloud](prisma-cloud/prisma-cloud-overview)
   - [Purple Hats](purple-hats/purple-hats-overview)
   - [SonarQube](sonarqube/sonarqube-overview)
 **Decommissioned Tools**
@@ -16,6 +15,8 @@
   - [Bitbucket](bitbucket)
   - [Fortify Static Code Analyzer (SCA)](fortify-sca)
   - [Fortify WebInspect Enterprise](fortify-webinspect)
+  - [Prisma Cloud](prisma-cloud)
+
 
 &nbsp;
 
