@@ -8,7 +8,6 @@ The following table provides list of tools for each stage in CI/CD pipeline offe
 |Plan|GitLab Issues|Jira Cloud (new!)	
 |Plan|GitLab Wiki| Confluence Cloud (new!)	
 |Plan|Gitlab Security Dashboard|NA|	
-|Develop|GitLab CI/CD|NA|
 |Build|GitLab CI/CD|NA|
 |Build|GitLab Package Registry|Nexus Repository Pro|
 |Build|GitLab Dependency Scanning|Nexus Intelligence/Nexus IQ Server|
