@@ -22,7 +22,9 @@ User(s) to be onboarded to GitLab must meet have the following:
 
 ## Onboarding via Portal 
 
-Onboarding via SHIP-HATS portal will be available after GA only
+Onboarding via the [SHIP-HATS portal](https://portal.ship.gov.sg/) will be available after GA only.  
+
+- [SHIP-HATS portal documentation](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/)
 
 
 <!--
