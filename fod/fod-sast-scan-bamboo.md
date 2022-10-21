@@ -3,6 +3,8 @@
 
 Complete the following steps to conduct a SAST scan using Bamboo:
 
+1. [Retrieve FOD token](fod/fod-retrieve-information)
+1. [Review Sample Bamboo plans for SAST scans](#sample-bamboo-plans-for-sast-scans)
 1. [Prerequisites](#prerequisites)
 1. [Package source code in ZIP file](#package-source-code-in-zip-file)
 1. [Upload ZIP to FOD server for processing and scanning](#upload-zip-to-fod-server-for-processing-and-scanning)
@@ -24,14 +26,8 @@ Two types of plans are provided:
 
 ## Prerequisites
 
-1. Get FOD release number from the URL (for e.g. the release number = 100)
-    
-    ![Release](./images/fod_bamboo-release.png)
-1. PA/SA to [retrieve the FOD token (Personal Access Token)](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-tokens) from the [SHIP-HATS portal](https://portal.ship.gov.sg/). 
-1. PA/SA to get the FOD service account from the [FOD portal](https://sgp.fortify.com/).
-    1. Navigate to to the FOD Portal > Your application > Access, and then search for `svc-acct`. The service account will be the first part of the email before `@`. In the example below, the service account is `svc-acct-hats`.
+1. [Retrieve your FOD service account, token ID, and release ID](fod/fod-retrieve-information).
 
-    ![Service account](./images/fod-bamboo-service-account.png)
 1. Configure the token and service account in bamboo variables.
 
     ![Variables](./images/fod-bamboo-variables.png)
@@ -92,7 +88,7 @@ C:\opt\fod\scancentral_latest\bin\scancentral package -bt none -o package.zip
 
 
 ## Upload ZIP to FOD server for processing and scanning
-A utility tool (https://github.com/fod-dev/fod-uploader-java) is used to upload your ZIP file to the FOD server. 
+A utility tool is used to upload your ZIP file to the FOD server. For more information, refer to the [FOD upload](https://github.com/fod-dev/fod-uploader-java) documentation. 
 
 Replace the **FOD_RELEASE** value with **your own FOD release** number which you have acquired in the [prerequisite step 1](#prerequisites).
 
@@ -102,13 +98,14 @@ Based on the table below, assuming you have a Python 3 project, your FOD_UPLOADE
 FOD_UPLOADER_OPTS: "-apf -ts 10 -l 18"
 ```
 
-> **Note:** `-apf` is recommended since it will fail your build whenever your scan results fail the security policy set in FOD.
 
 |Parameter|	Description|
 |---|---|
 -ts	|Technology stack as an integer: <br><br>1 (.NET), 23 (.Net Core), 2 (ABAP), 21 (Apex/Visualforce), 3 (ASP), 5 (CFML), 6 (COBOL), 22 (Go), 7 (JAVA/J2EE), 16 (JS/TS/HTML), 18 (MBS/C/C++/Scala), 9 (PHP), 10 (PYTHON), 17 (Ruby), 12 (Swift/Objective C/C++), 11 (VB6), 14 (VBScript)
 -l	|Language level as an integer:<br><br>.NET: 2 (2.0), 3 (3.0), 4 (3.5), 5 (4.0), 11 (4.5), 15 (4.6), 16 (4.7), 30, (4.8), 32 (5.0)<br><br>.NET Core: 23 (1.0), 24 (1.1), 25 (2.0), 26 (2.1), 27 (2.2), 28 (3.0), 29 (3.1)<br><br>Java: 8 (1.5), 9 (1.6), 10 (1.7), 12 (1.8), 17 (1.9), 19 (10), 20 (11), 21 (12), 22 (13)<br><br>Python: 13 (2), 14 (2 Django), 18 (3)
--apf|	Whether to return exit(0) instead of exit(1) if the scan fails the security policy specified in Fortify on Demand
+-apf|	Whether to return exit(0) instead of exit(1) if the scan fails the security policy specified in Fortify on Demand <br>Setting `-apf` is not recommended as your build will pass even if your scan results fails the security policy set in FOD
+
+
 
 ### hats_linux_image
 

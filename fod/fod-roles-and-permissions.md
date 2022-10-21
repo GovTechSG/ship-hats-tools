@@ -5,10 +5,10 @@ User roles and their permissions determine the actions a user can perform in For
 |Role|Description|
 |---|---|
 |**View-Only**	|Application users with this role can view:<ul><li>General information of the application.</li><li>Application versions.</li></ul>
-|**GT-Report-Upload-And-Generate-SAST-and-DAST**|In addition to **View-Only**, users with this role can:<ul><li> Run SAST scan</li><li>Run DAST scans</li></ul>|
+|**GT-Report-Upload-And-Generate-SAST-and-DAST**|In addition to **View-Only**, users with this role can:<ul><li> Run SAST scan</li><li>Run DAST scans</li></ul><br>Only FOD Service Account is allowed to have this permission.|
 |**GT-Application Security Tester**|In addition to **View-Only**, users with this role can:<ul><li> Edit Issues </li><li> Create Reports</li></ul>|
 |**GT-Security Lead**|In addition to **GT-Application Security Tester**, users with this role can: <ul><li>Audit Issues</li></ul>
-|**GT-Manager**	|In addition to **GT-Security Lead**, users with this role can: <ul><li>Manage Applications</li></ul>
+|**GT-Manager**	|In addition to **GT-Security Lead**, users with this role can: <ul><li>Manage Applications</li></ul><br>Subscription/Project Admin are automatically assigned GT-Manager role. GT-Manager users will not be shown in [Manage Users](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-user-groups-and-users). Subscription Admin will have to demote/promote a user in order to remove/add their GT-Manager role.|
 
 
 

@@ -2,6 +2,7 @@
 
 Complete the following steps to conduct a DAST scan:
 
+1. [Retrieve FOD token](fod/fod-retrieve-information)
 1. [Set up your DAST scan in FOD portal](#set-up-your-dast-scan-in-fod-portal)
 1. [Run your DAST scan in GitLab](#run-your-dast-scan-in-gitlab)
 1. [Generate DAST report on GitLab](#generate-dast-report-on-gitlab)
@@ -83,6 +84,7 @@ To ensure that no False Positive (FP) appears in the [GitLab Vulnerability Dashb
 For information on how to reuse the template, refer to [GitLab Template Guide](https://gts.gitlab-dedicated.systems/templates/ship-hats-templates/-/tree/main/templates#file-gitlab-ci-create-fod-reportyml).
 
 <!-- as per confluence - TODO: Add screenshot of Gitlab Vulnerability Dashboard -->
+
 ## DAST Limitations
 
 The following list provides FOD limitations:

@@ -6,6 +6,7 @@
   -	[View](fod/fod-view)
   - [View/Audit issues](fod/fod-audit-issues)
   -	[Add](fod/fod-add)
+  - [Retrieve FOD information](fod/fod-retrieve-information)
   - [DAST Scan](fod/fod-dast-scan)
   - [SAST Scan](fod/fod-sast-scan)
   - [SAST Scan using Bamboo](fod/fod-sast-scan-bamboo)
