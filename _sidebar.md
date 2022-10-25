@@ -1,6 +1,7 @@
 **2.0 Tools**
   - [Audience](audience)
-  - [Overview](tools-overview) 
+  - [Overview](tools-overview)
+  - [What's New](what-s-new)
   - [GitLab](gitlab/gitlab-overview)  
   - [Confluence](confluence/confluence-overview)
   - [Fortify-on Demand](fod/fod-overview)
