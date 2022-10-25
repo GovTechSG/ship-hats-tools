@@ -5,8 +5,8 @@ The following table provides list of tools for each stage in CI/CD pipeline offe
 |Stage|GitLab Native|Alternative Tool|
 |---|---|---|
 |Access|TechPass & SEED|TechPass & SEED|
-|Plan|GitLab Issues|Jira Cloud (new!)	
-|Plan|GitLab Wiki| Confluence Cloud (new!)	
+|Plan|GitLab Issues|Jira 	
+|Plan|GitLab Wiki| Confluence 	
 |Plan|Gitlab Security Dashboard|NA|	
 |Build|GitLab CI/CD|NA|
 |Build|GitLab Package Registry|Nexus Repository Pro|
