@@ -21,20 +21,7 @@ The following table provides list of tools for each stage in CI/CD pipeline offe
 
 ## Supported Tools and Versions
 
-The following table provides a list of tools integrated with SHIP-HATS and the supported version:
-
-|Tools |  Supported Version | Endpoint (URL) |
-| --- | --- | --- |
-|[GitLab](gitlab/gitlab-overview)|NA|https://sgts.gitlab-dedicated.com/
-|[Confluence](confluence/confluence-overview)|NA|https://confluence.ship.gov.sg/|
-|[Fortify on Demand](fod-overview)|NA|https://sgp.fortify.com/
-|[Jira](jira/jira-overview.md) |NA |https://jira.ship.gov.sg/|
-|[Nexus IQ](nexus-iq/nexus-iq-overview) |135 | https://nexus-iq.ship.gov.sg/assets/index.html |
-|[Nexus Repository Pro](nexus-repository/nexus-repository-overview) |  3.38.0 | https://nexus.ship.gov.sg/|
-|[pCloudy](pcloudy/pcloudy-overview) | NA | https://hats.pcloudy.com/ <br><br> As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy.|
-|[Purple HATS](purple-hats/purple-hats-overview) | NA | NA as it is a CLI tool. |
-|[SonarQube](sonarqube/sonarqube-overview) |Community edition 9.3  | https://sonar.hats.stack.gov.sg/sonar|
-|[SonarQube](sonarqube/sonarqube-overview) |Developer edition 9.3 | https://sonar1.hats.stack.gov.sg/sonar|
+[Supported Tools and Versions](supported-tools-and-versions.md ':include')
 
 <!--
 
