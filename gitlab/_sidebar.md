@@ -3,7 +3,7 @@
   -	[User Journey](gitlab/gitlab-user-journey)
   -	[Roles and Permissions](gitlab/gitlab-roles-and-permissions)
   - [Sign commits with GPG](gitlab/signing-commits-with-gpg)
-  - [Communicate using SSH keys](communicate-using-ssh-keys)
+  - [Communicate using SSH keys](gitlab/communicate-using-ssh-keys)
   - [Best Practices](gitlab/gitlab-best-practices)
   - [Fair Usage Policy](gitlab/gitlab-fair-usage-policy)
   - [Security Compliance](gitlab/gitlab-security-compliance)
