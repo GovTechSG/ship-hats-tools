@@ -2,6 +2,7 @@
   - [GitLab](gitlab/gitlab-overview)
   -	[User Journey](gitlab/gitlab-user-journey)
   -	[Roles and Permissions](gitlab/gitlab-roles-and-permissions)
+  - [Signing commits with GPG](gitlab/signing-commits-with-gpg)
   - [Best Practices](gitlab/gitlab-best-practices)
   - [Fair Usage Policy](gitlab/gitlab-fair-usage-policy)
   - [Security Compliance](gitlab/gitlab-security-compliance)
