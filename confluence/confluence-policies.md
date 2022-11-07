@@ -1,4 +1,4 @@
-# Confluence Policies
+# Policies
 
 ## Confluence Global Retention Rules
 
@@ -14,8 +14,7 @@ The SHIP-HATS Confluence Global Retention Rules will take effect on **30th Novem
 
 Agencies are reminded NOT to override the default SHIP-HATS Confluence retention configuration of your spaces.
 
-
-## FAQs
+### FAQs
 
 >**Tip:** Click the question to view the answer.
 
@@ -30,3 +29,5 @@ Agencies are reminded NOT to override the default SHIP-HATS Confluence retention
   No notification will be sent to the agency. Please work with your project admin and do necessary housekeeping actions.
 </details>
 <br>
+
+
