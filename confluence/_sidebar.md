@@ -8,6 +8,7 @@
   - [Best Practices](confluence/confluence-best-practices)
   - [Plugins](confluence/confluence-plugins)
   - [FAQs](confluence/confluence-faqs)
+  - [Policies](confluence/confluence-policies)
   - [Additional Resources](confluence/confluence-additional-resources)      
 - **Additional Resources**
   - [Tools](https://docs.developer.tech.gov.sg/docs/ship-hats-tools/#/tools-overview)
