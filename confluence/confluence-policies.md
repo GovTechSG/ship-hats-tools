@@ -7,7 +7,7 @@ In the view of improving our service capability and operation efficiency, SHIP-H
 |Global Retention Rule|Rule criteria|
 |---|---|
 |**Attachment versions**|Keep by Number: **5 versions**<br><br>Keep the 5 most recent versions, and automatically delete any earlier versions.  
-|**Page versions**|Keep by Age: **6 months**<br><br>Pages will automatically delete any version older than 6 months. 
+|**Page versions**|Keep by Age: **6 months**<br><br>Pages will automatically delete any version older than 6 months.<br><br>**Note:** Current version will not be affected. 
 |**Trash**|Keep by Number: **1 month**<br><br>Purge any item deleted more than 1 month ago.
 
 The SHIP-HATS Confluence Global Retention Rules will take effect on **30th November 2022**.
@@ -29,5 +29,9 @@ Agencies are reminded NOT to override the default SHIP-HATS Confluence retention
   No notification will be sent to the agency. Please work with your project admin and do necessary housekeeping actions.
 </details>
 <br>
-
+<details>
+  <summary><b>What if my latest version itself is not updated for more than 6 months? Will it get deleted as well?</b></summary><br>
+  No, the current page version itself will not be affected.
+</details>
+<br>
 
