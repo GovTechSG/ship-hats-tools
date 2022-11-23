@@ -2,6 +2,8 @@
   - [GitLab](gitlab/gitlab-overview)
   -	[User Journey](gitlab/gitlab-user-journey)
   -	[Roles and Permissions](gitlab/gitlab-roles-and-permissions)
+  - [Provision](gitlab/gitlab-provision)
+  - [Log in](gitlab/gitlab-login)
   - [Sign commits with GPG](gitlab/signing-commits-with-gpg)
   - [Communicate using SSH keys](gitlab/communicate-using-ssh-keys)
   - [Best Practices](gitlab/gitlab-best-practices)
