@@ -4,18 +4,4 @@ SHIP-HATS provides GitLab software-as-a-service offering. With this service offe
 
 Before you begin, familiarize yourself with GitLab using the following resources:
 
-- [GitLab in Action demo](https://about.gitlab.com/demo)
-- [GitLab for GitOps](https://about.gitlab.com/solutions/gitops) 
-- [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
-- [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
-- [CI/CD concepts](https://docs.gitlab.com/ee/ci/introduction/)
-- [CI/CD pipelines](https://docs.gitlab.com/ee/ci/pipelines/)
-- [Learn about Jobs](https://docs.gitlab.com/ee/ci/jobs/)
-- [GitLab CI/CD variables](https://docs.gitlab.com/ee/ci/variables/)
-- [The .gitlab-ci.yml file](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
-- [Docker integration](https://docs.gitlab.com/ee/ci/docker/)
-- [Services](https://docs.gitlab.com/ee/ci/services/)
-- [GitLab CI/CD Examples](https://docs.gitlab.com/ee/ci/examples/)
-- [Troubleshooting CI/CD](https://docs.gitlab.com/ee/ci/troubleshooting.html)
-- [GitLab Runner](https://docs.gitlab.com/runner/)
-
+[Additional resources](additional-resources.md ':include')
