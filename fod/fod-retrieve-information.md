@@ -2,10 +2,17 @@
 
 
 Only SA/PA can get the details of FOD application. Please contact your PA to retrieve the following:
+
+
+- [FOD Username](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-tokens)
+- [CI Token](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-tokens)
+- [Release ID](https://docs.developer.tech.gov.sg/docs/ship-hats-portal/manage-releases)
+
+<!--
+
 - [FOD token ID](#retrieve-fod-token) 
 - [FOD release number](#retrieve-fod-release-number) 
 - [FOD service account](#retrieve-fod-service-account) 
-
 
 ## Retrieve FOD token
 
@@ -25,3 +32,5 @@ Refer to the [Retrieve token](https://docs.developer.tech.gov.sg/docs/ship-hats-
     The service account will be the first part of the email before `@`. For example, if the email address is `svc-acct-hats@svc-acct-hats.com`, the **service account** is `svc-acct-hats`.
 
     ![Service account](./images/fod-bamboo-service-account.png)
+
+-->    

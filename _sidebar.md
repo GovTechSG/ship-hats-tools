@@ -1,6 +1,6 @@
 **2.0 Tools**
   - [Audience](audience)
-  - [Overview](tools-overview)
+  - [SHIP-HATS Tools](ship-hats-tools)
   - [What's New](what-s-new)
   - [GitLab](gitlab/gitlab-overview)  
   - [Confluence](confluence/confluence-overview)
