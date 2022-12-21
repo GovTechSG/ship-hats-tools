@@ -6,6 +6,7 @@
   - [Log in](gitlab/gitlab-login)
   - [Sign commits with GPG](gitlab/signing-commits-with-gpg)
   - [Communicate using SSH keys](gitlab/communicate-using-ssh-keys)
+  - [Runners](gitlab/runners)
   - [Best Practices](gitlab/gitlab-best-practices)
   - [Fair Usage Policy](gitlab/gitlab-fair-usage-policy)
   - [Security Compliance](gitlab/gitlab-security-compliance)
