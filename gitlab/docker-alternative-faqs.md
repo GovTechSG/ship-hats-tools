@@ -3,7 +3,7 @@
 <details>
   <summary><b>What docker alternatives are available to replace docker commands?</b></summary><br>
 
-In [SHIP-HATS Templates](pipeline-templates), the docker alternative tools used in our templates include Kaniko, Skopeo, and Crane. 
+In [SHIP-HATS Templates](pipeline-templates)(from tags v1.0.4), the docker alternative tools used in our templates include Kaniko, Skopeo, and Crane. 
 </details>
 <br>
 
@@ -40,7 +40,7 @@ Based on our testing on docker alternatives, Skopeo and Crane can run on non-roo
 <br>
 
 <details>
-  <summary><b>Are there any image or job templates that I can reference in my job if there are tasks that require multiple tools. For example, AWS assumes role with Kaniko to build and push image to AWS ECR).</b></summary><br>
+  <summary><b>Are there any image or job templates that I can reference in my job if there are tasks that require multiple tools. For example, AWS assumes role with Kaniko to build and push image to AWS ECR.</b></summary><br>
 
 You may refer to the images in Pipeline COE to see if there is any image that is suitable for your use case. Most images in Pipeline COE are built from container base image that comes with multiple common tools (like wget, git, curl and jq). If you are unable to find a suitable image in Pipeline COE, you may [raise a request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) or if you find an image that can add on the tools that you require, you may edit the Dockerfile and raise an MR for platform team to review and approve. 
 </details>

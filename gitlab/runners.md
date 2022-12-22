@@ -2,9 +2,9 @@
 
 [Runners](runners-snippet.md ':include')
 
-## Kaniko FAQs
+## Docker Alternative FAQs
 
-[Kaniko](kaniko-faqs.md ':include')
+[Kaniko](docker-alternative-faqs.md ':include')
 
 ## Windows Runner
 
