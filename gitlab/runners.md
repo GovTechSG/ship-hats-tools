@@ -2,9 +2,9 @@
 
 [Runners](runners-snippet.md ':include')
 
-<!--## Kaniko FAQs
+## Kaniko FAQs
 
-[Kaniko](kaniko-faqs.md ':include')-->
+[Kaniko](kaniko-faqs.md ':include')
 
 ## Windows Runner
 
