@@ -45,7 +45,7 @@ Based on our testing on docker alternatives, Skopeo and Crane can run on non-roo
 <details>
   <summary><b>Are there any image or job templates that I can reference in my job if there are tasks that require multiple tools. For example, AWS assumes role with Kaniko to build and push image to AWS ECR.</b></summary><br>
 
-[Pipeline COE](https://sgts.gitlab-dedicated.com/pipeline-coe) is an InnerSource project where custom images are built and shared across all projects. Most images in Pipeline COE are built from container base image that comes with multiple common tools (e.g., Wget, Git, curl, and JQ).
+[Pipeline COE](https://sgts.gitlab-dedicated.com/pipelinecoe/containers) is an InnerSource project where custom images are built and shared across all projects. Most images in Pipeline COE are built from container base image that comes with multiple common tools (e.g., Wget, Git, curl, and JQ).
 
 Please note that this project is a work in progress and the location of the images might be changed later. You may refer to the images there in your job should you find any one suitable.<!--You may refer to the images in your job to find something suitable to your requirements.--> 
 
